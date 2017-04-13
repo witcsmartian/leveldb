@@ -5,9 +5,9 @@
 Authors: Sanjay Ghemawat (sanjay@google.com) and Jeff Dean (jeff@google.com)
 
 # Features
-  * Keys and values are arbitrary byte arrays.
+  * Keys and values are arbitrary(任意的) byte arrays.
   * Data is stored sorted by key.
-  * Callers can provide a custom comparison function to override the sort order.
+  * Callers can provide a custom comparison function to override(重写) the sort order.
   * The basic operations are `Put(key,value)`, `Get(key)`, `Delete(key)`.
   * Multiple changes can be made in one atomic batch.
   * Users can create a transient snapshot to get a consistent view of data.
